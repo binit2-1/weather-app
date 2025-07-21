@@ -3,6 +3,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+  background-image: url("./assets/img/backgorund.png");
+  background-size: cover;
 }
 
 #app {
