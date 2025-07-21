@@ -1,5 +1,9 @@
 import './style.css';
 import './searchInput.css';
-import './weatherAPI.js';
+import { handleSearchInput } from './searchInput.js';
 
-console.log('Hello World!');
+
+document.addEventListener('DOMContentLoaded', () => {
+    handleSearchInput();
+    console.log('App initialized');
+});
