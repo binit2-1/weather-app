@@ -1,8 +1,8 @@
 # Node modules
 /node_modules
 
-# Build output
-/dist
+# # Build output
+# /dist
 
 # Log files
 npm-debug.log*
