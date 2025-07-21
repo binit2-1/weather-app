@@ -1,10 +1,11 @@
 form {
   display: flex;
   align-items: center;
+  left: 38%;
   position: relative;
-  background-color: #f4f2f2;
+  background-color: #ffffff;
   border-radius: 30px;
-  width: fit-content;
+  width: 400px;
 }
 
 .search__input {
@@ -21,12 +22,12 @@ form {
 
 .search__input::placeholder {
   font-weight: 100;
-  color: #ccc;
+  color: rgb(168, 168, 168);
 }
 
 .search__button {
   border: none;
-  background-color: #4a90e2;
+  background-color: #1A5AD4;
   border-radius: 50%;
   padding: 0.4rem;
   cursor: pointer;
@@ -40,7 +41,7 @@ form {
 }
 
 .search__button:hover {
-  background-color: #357abd;
+  background-color: #1548a5;
 }
 
 .search__icon {
