@@ -9,7 +9,8 @@
     "watch": "webpack --watch --config webpack.dev.js",
     "lint": "eslint \"src/**/*.js\"",
     "lint:fix": "eslint \"src/**/*.js\" --fix",
-    "format": "prettier --write \"src/**/*.{js,css,html}\""
+    "format": "prettier --write \"src/**/*.{js,css,html}\"",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [
     "webpack",
