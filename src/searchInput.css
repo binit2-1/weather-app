@@ -1,11 +1,11 @@
 form {
   display: flex;
-  align-items: center;
-  left: 38%;
+  align-content: center;
   position: relative;
   background-color: #ffffff;
   border-radius: 30px;
   width: 400px;
+  margin: 0 auto;
 }
 
 .search__input {
