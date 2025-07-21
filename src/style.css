@@ -10,6 +10,15 @@ body {
   padding: 20px;
 }
 
-h1 {
-  color: #333;
+#weather-info {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+#weather-details {
+  margin-top: 70px;
 }
