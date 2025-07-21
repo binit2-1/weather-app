@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
-  background-image: url("./assets/img/backgorund.png");
+  background-image: url('./assets/img/backgorund.png');
 }
 
 #app {
@@ -16,7 +16,6 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
-  
 }
 
 #weather-details {
